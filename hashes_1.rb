@@ -41,15 +41,24 @@ foods["strawberries"] = 13
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
+emails = {
+  "inbox" => 20,000,
+  "outbox" => 17,
+  "deleted" => 4,
+  "drafts" => 2,
+  "archive" => 5,
+}
 
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
+p emails.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
+p emails.values
 
 
 #-------------------
