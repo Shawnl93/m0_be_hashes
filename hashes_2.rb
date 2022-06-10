@@ -8,9 +8,10 @@ states = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
-#
-#
+states.each do |state|
+  puts "The state is #{state} and its my favorite place to live."
+end
+
 
 
 # ======================================
